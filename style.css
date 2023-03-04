@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(208, 233, 247);
+    height: 100vh;
+    width: 100%;
+}
+
+#chart {
+    position: absolute;
+    background-color: #fff;
+    height: 600px;
+    width: 600px;
+    padding: 100px 50px;
+}
+
+.x-text {
+    font-size: .75em;
+}
+
+.x-text:hover {
+    cursor: default;
+}
+
+.y-text {
+    height: 75px;
+}
+
+.row-box {
+    width: 400px;
+    height: 75px;
+    border-top: rgba(129, 129, 129, 0.4) 1px dashed;
+}
+
+.column-box {
+    width: 299px;
+    height: 67px;
+    border-top: rgba(129, 129, 129, 0) 1px dashed;
+}
+
+/* JULY */
+#jul {
+    width: 90%;
+}
+#jul .us {
+    width: 40%;
+}
+#jul .canada {
+    width: 30%;
+}
+#jul .australia {
+    width: 20%;
+}
+#jul .china {
+    width: 10%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* AUGUST */
+#aug {
+    width: 77%;
+}
+#aug .us {
+    width: 25%;
+}
+#aug .canada {
+    width: 45%;
+}
+#aug .australia {
+    width: 10%;
+}
+#aug .china {
+    width: 20%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* SEPTEMBER */
+#sep {
+    width: 100%;
+}
+#sep .us {
+    width: 55%;
+}
+#sep .canada {
+    width: 25%;
+}
+#sep .australia {
+    width: 8%;
+}
+#sep .china {
+    width: 12%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* OCTOBER */
+#oct {
+    width: 46%;
+}
+#oct .us {
+    width: 60%;
+}
+#oct .canada {
+    width: 15%;
+}
+#oct .australia {
+    width: 15%;
+}
+#oct .china {
+    width: 10%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* NOVEMBER */
+#nov {
+    width: 74%;
+}
+#nov .us {
+    width: 54%;
+}
+#nov .canada {
+    width: 19%;
+}
+#nov .australia {
+    width: 24%;
+}
+#nov .china {
+    width: 3%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* DECEMBER */
+#dec {
+    width: 85%;
+}
+#dec .us {
+    width: 70%;
+}
+#dec .canada {
+    width: 18%;
+}
+#dec .australia {
+    width: 5%;
+}
+#dec .china {
+    width: 7%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 33px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.575) -1px 5px 10px;
+}
+
+span { 
+    display:block;
+    float:left;
+    height: 8px;
+    }
+
+hr {
+    width: 10px;
+    height: 6px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.us {
+    background-color: #5289cc;
+}
+
+.canada {
+    background-color: #3cc9c9;
+    border-left: solid #fff 1px;
+}
+
+.australia {
+    background-color: #f5a522;
+    border-left: solid #fff 1px;
+}
+
+.china {
+    background-color: #F55823;
+    /* border-radius: 0px 5px 5px 0px; */
+    border-left: solid #fff 1px;
+}
+
+
+
+.x-axis {
+    height: 50px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+
+.y-axis {
+    width: 75px;
+    margin-top: -10px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.months {
+    margin: 0 0 30px 80px;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.month {
+    padding: 18px;
+}
+
+.overlay {
+    /* background-color: rgba(6, 180, 6, 0.055); */
+    border-left: solid 1px rgba(129, 129, 129, 0.75);
+    margin: 0 0 100px 75px;
+    position: relative;
+    z-index: 999;
+    transform:rotate(270deg);
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent {
+    opacity: .3;
+}
